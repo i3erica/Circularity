@@ -4,7 +4,7 @@
 //
 //  Created by Brian  on 4/29/18.
 //  Copyright © 2018 Brian Abbondanza. All rights reserved.
-//
+//  This first iOS application, Dedicated to my Emma. 
 
 import SpriteKit
 import GameplayKit
@@ -13,6 +13,7 @@ class GameScene: SKScene {
     
     var lock = SKShapeNode()
     var path = UIBezierPath()
+    var cursor = SKShapeNode()
     
     let zeroAngle: CGFloat = 0.0
     
@@ -28,6 +29,13 @@ class GameScene: SKScene {
         lock.strokeColor = SKColor.cyan
         lock.lineWidth = 40.0
         self.addChild(lock)
+        
+        cursor = SKShapeNode(rectOf: CGSize(width: 40.0 - 7.0, height: 7.0), cornerRadius: 3.5)
+        cursor.fillColor = SKColor.purple
+        cursor.position = CGPoint(x: self.frame.width/2, y: self.frame.height/2 + 120.0)
+        cursor.zRotation = 3.14 / 2
+        cursor.zPosition = 2.0
+        self.addChild(cursor)
     }
     
    // removed override here for touches began// 
