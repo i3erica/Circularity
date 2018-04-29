@@ -14,6 +14,7 @@ class GameScene: SKScene {
     var lock = SKShapeNode()
     var path = UIBezierPath()
     var cursor = SKShapeNode()
+    var ball = SKShapeNode()
     
     
     let zeroAngle: CGFloat = 0.0
@@ -39,6 +40,8 @@ class GameScene: SKScene {
         cursor.zRotation = 3.14 / 2
         cursor.zPosition = 2.0
         self.addChild(cursor)
+        
+        newBall()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -56,8 +59,26 @@ class GameScene: SKScene {
         let radial = atan2(dy, dx)
         
         path = UIBezierPath(arcCenter: CGPoint(x: self.frame.width / 2, y: self.frame.height / 2), radius: 120, startAngle: radial, endAngle: radial + CGFloat(Double.pi * 2), clockwise: true)
-        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 100)
+        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 150)
         cursor.run(SKAction.repeatForever(start).reversed())
+    }
+    
+    func newBall() {
+        ball = SKShapeNode(circleOfRadius: 15.0)
+        ball.fillColor = SKColor.purple
+        ball.strokeColor = SKColor.cyan
+        
+        let dx = cursor.position.x - self.frame.width / 2
+        let dy = cursor.position.y - self.frame.height / 2
+        
+        let radial = atan2(dy, dx)
+        
+        let startTempAngle = CGFloat.random(min: radial - 1.0, max: radial - 2.5)
+        let startTempPath = UIBezierPath(arcCenter: CGPoint(x: self.frame.width / 2, y: self.frame.height / 2), radius: 120, startAngle: startTempAngle, endAngle: startTempAngle + CGFloat(Double.pi * 2), clockwise: true)
+        
+        ball.position = startTempPath.currentPoint
+        
+        self.addChild(ball)
     }
 
     
