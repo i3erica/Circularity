@@ -4,7 +4,7 @@
 //
 //  Created by Brian  on 4/29/18.
 //  Copyright © 2018 Brian Abbondanza. All rights reserved.
-//
+//  This first iOS application, Dedicated to my Emma. 
 
 import UIKit
 import SpriteKit
