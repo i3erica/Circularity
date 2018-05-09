@@ -60,7 +60,7 @@ class GameScene: SKScene {
         currentScoreLabel = SKLabelNode( fontNamed: "AvenirNext")
         currentScoreLabel.position = CGPoint(x: self.frame.width/2, y: self.frame.height/2)
         currentScoreLabel.fontColor = SKColor.cyan
-        currentScoreLabel.text = "Begin"
+        currentScoreLabel.text = "GO !"
         
         
         self.addChild(gLevelLabel)
