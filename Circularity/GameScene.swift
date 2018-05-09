@@ -60,7 +60,7 @@ class GameScene: SKScene {
         currentScoreLabel = SKLabelNode( fontNamed: "AvenirNext")
         currentScoreLabel.position = CGPoint(x: self.frame.width/2, y: self.frame.height/2)
         currentScoreLabel.fontColor = SKColor.cyan
-        currentScoreLabel.text = "Touch"
+        currentScoreLabel.text = "Begin"
         
         
         self.addChild(gLevelLabel)
@@ -174,7 +174,7 @@ class GameScene: SKScene {
         cursor.removeFromParent()
         currentScoreLabel.text = "Try Again"
         let actionRed = SKAction.colorize(with: UIColor(red: 149.0/255.0, green: 165.0/255.0, blue: 166.0/255.0, alpha: 1.0), colorBlendFactor: 1.0, duration: 0.25)
-        let actionBack = SKAction.wait(forDuration: 0.5)
+        let actionBack = SKAction.wait(forDuration: 0.75)
         self.scene?.run(SKAction.sequence([actionRed,actionBack]), completion: { () -> Void in
             self.removeAllChildren()
             self.clockWise = false
