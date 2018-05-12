@@ -18,6 +18,9 @@ class GameScene: SKScene {
     var actionRed = UIColor.red
     
     
+    
+    
+    
     let zeroAngle: CGFloat = 0.0
     
     var didStart = false
@@ -182,6 +185,8 @@ class GameScene: SKScene {
             self.layoutGame()
         })
     }
+    
+    
 
     
     override func update(_ currentTime: CFTimeInterval) {

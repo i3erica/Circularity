@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF4142C4209676AF00070F64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4142C3209676AF00070F64 /* Extensions.swift */; };
+		BFEE430320A73B9E008EF8A5 /* Circularity Launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEE430220A73B9E008EF8A5 /* Circularity Launch.jpg */; };
+		BFEE430520A73CB8008EF8A5 /* Circle Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEE430420A73CB8008EF8A5 /* Circle Launch.png */; };
 		BFF28081209652DF005E9F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF28080209652DF005E9F9D /* AppDelegate.swift */; };
 		BFF28085209652DF005E9F9D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFF28084209652DF005E9F9D /* Actions.sks */; };
 		BFF28087209652DF005E9F9D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF28086209652DF005E9F9D /* GameScene.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		BF4142C3209676AF00070F64 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BFEE430220A73B9E008EF8A5 /* Circularity Launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circularity Launch.jpg"; sourceTree = "<group>"; };
+		BFEE430420A73CB8008EF8A5 /* Circle Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle Launch.png"; sourceTree = "<group>"; };
 		BFF2807D209652DF005E9F9D /* Circularity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circularity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF28080209652DF005E9F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF28084209652DF005E9F9D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFEE42FD20A736DF008EF8A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE430420A73CB8008EF8A5 /* Circle Launch.png */,
+				BFEE430220A73B9E008EF8A5 /* Circularity Launch.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		BFF28074209652DF005E9F9D = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +123,7 @@
 				BFF2808A209652DF005E9F9D /* Main.storyboard */,
 				BFF2808D209652E5005E9F9D /* Assets.xcassets */,
 				BFF2808F209652E5005E9F9D /* LaunchScreen.storyboard */,
+				BFEE42FD20A736DF008EF8A5 /* Images */,
 				BFF28092209652E5005E9F9D /* Info.plist */,
 				BF4142C3209676AF00070F64 /* Extensions.swift */,
 			);
@@ -239,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF2808C209652DF005E9F9D /* Main.storyboard in Resources */,
+				BFEE430320A73B9E008EF8A5 /* Circularity Launch.jpg in Resources */,
 				BFF2808E209652E5005E9F9D /* Assets.xcassets in Resources */,
+				BFEE430520A73CB8008EF8A5 /* Circle Launch.png in Resources */,
 				BFF28091209652E5005E9F9D /* LaunchScreen.storyboard in Resources */,
 				BFF28085209652DF005E9F9D /* Actions.sks in Resources */,
 			);
