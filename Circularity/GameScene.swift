@@ -186,5 +186,18 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
+        if didStart {
+            if cursor.intersects(dot) {
+                touched = true
+            } else {
+                if touched == true {
+                    if cursor.intersects(dot) {
+                    didStart = false
+                    touched = false
+                    gameIsOver()
+                }
+            }
+        }
     }
+}
 }
