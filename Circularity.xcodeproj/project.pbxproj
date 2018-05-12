@@ -93,7 +93,6 @@
 		BFF28074209652DF005E9F9D = {
 			isa = PBXGroup;
 			children = (
-				BFEE430620A747E2008EF8A5 /* Launch Screen.storyboard */,
 				BFF2807F209652DF005E9F9D /* Circularity */,
 				BFF2809A209652E5005E9F9D /* CircularityTests */,
 				BFF280A5209652E5005E9F9D /* CircularityUITests */,
@@ -120,6 +119,7 @@
 				BFF28088209652DF005E9F9D /* GameViewController.swift */,
 				BFF2808A209652DF005E9F9D /* Main.storyboard */,
 				BFF2808D209652E5005E9F9D /* Assets.xcassets */,
+				BFEE430620A747E2008EF8A5 /* Launch Screen.storyboard */,
 				BFEE42FD20A736DF008EF8A5 /* Images */,
 				BFF28092209652E5005E9F9D /* Info.plist */,
 				BF4142C3209676AF00070F64 /* Extensions.swift */,
@@ -458,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.Circularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -478,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.Circularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
