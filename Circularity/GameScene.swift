@@ -92,7 +92,7 @@ class GameScene: SKScene {
         let radial = atan2(dy, dx)
         
         path = UIBezierPath(arcCenter: CGPoint(x: self.frame.width / 2, y: self.frame.height / 2), radius: 120, startAngle: radial, endAngle: radial + CGFloat(Double.pi * 2), clockwise: true)
-        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 150)
+        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 300)
         cursor.run(SKAction.repeatForever(start).reversed())
     }
     
@@ -102,7 +102,7 @@ class GameScene: SKScene {
         
         let radial = atan2(dy, dx)
         path = UIBezierPath(arcCenter: CGPoint(x: self.frame.width / 2, y: self.frame.height / 2), radius: 120, startAngle: radial, endAngle: radial + CGFloat(Double.pi * 2), clockwise: true)
-        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 150)
+        let start = SKAction.follow(path.cgPath, asOffset: false, orientToPath: true, speed: 300)
         cursor.run(SKAction.repeatForever(start))
         
     }
