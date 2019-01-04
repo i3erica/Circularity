@@ -139,7 +139,7 @@ class GameScene: SKScene {
     func updateGLabel() {
         currentScoreLabel.text = "\(gLevel - dots)"
         
-        
+    // Random Comment// 
     }
     func newDot() {
         dot = SKShapeNode(circleOfRadius: 15.0)
