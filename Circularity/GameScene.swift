@@ -4,7 +4,8 @@
 //
 //  Created by Brian  on 4/29/18.
 //  Copyright © 2018 Brian Abbondanza. All rights reserved.
-//  This first iOS application, Dedicated to my Emma. 
+//  This first iOS application, Dedicated to my Emma.
+//  Continuously Edited and Never Released. 
 
 import SpriteKit
 import GameplayKit
@@ -139,7 +140,7 @@ class GameScene: SKScene {
     func updateGLabel() {
         currentScoreLabel.text = "\(gLevel - dots)"
         
-    // Random Comment// 
+    // Random Comment Hello Emma//
     }
     func newDot() {
         dot = SKShapeNode(circleOfRadius: 15.0)
