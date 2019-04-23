@@ -199,16 +199,16 @@
 				TargetAttributes = {
 					BFF2807C209652DF005E9F9D = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					BFF28096209652E5005E9F9D = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						TestTargetID = BFF2807C209652DF005E9F9D;
 					};
 					BFF280A1209652E5005E9F9D = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						TestTargetID = BFF2807C209652DF005E9F9D;
 					};
 				};
@@ -444,7 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.Circularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.Circularity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -484,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.CircularityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circularity.app/Circularity";
 			};
@@ -505,7 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.CircularityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circularity.app/Circularity";
 			};
@@ -525,7 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.CircularityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Circularity;
 			};
@@ -545,7 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.i3erica.CircularityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Circularity;
 			};

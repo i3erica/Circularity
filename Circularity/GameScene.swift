@@ -5,7 +5,7 @@
 //  Created by Brian  on 4/29/18.
 //  Copyright © 2018 Brian Abbondanza. All rights reserved.
 //  This first iOS application, Dedicated to my Emma.
-//  Continuously Edited and Never Released. 
+//  Continuously Edited and Never Released.
 
 import SpriteKit
 import GameplayKit
@@ -85,7 +85,7 @@ class GameScene: SKScene {
             }
         
     }
-    
+    //eventually copy this forumla to create increasing speed functions for further levels//
     func firstRotation() {
         let dx = cursor.position.x - self.frame.width / 2
         let dy = cursor.position.y - self.frame.height / 2
